@@ -40,18 +40,13 @@
         android:layout_height="wrap_content"
         android:text="\nАвтомобиль, построенный на общей платформе с моделью Ford Mondeo, на внутреннем японском и европейском рынках стал продаваться с 2002 года, российские продажи Mazda6 первого поколения стартовали в 2003. В конце февраля 2006 года объём производства модели Mazda6 по всему миру превысил 1 миллион экземпляров. В 2006 году модель претерпела рестайлинг."
         android:textSize="34dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Рестайлинг 2010"
-        android:layout_marginTop="16dp"
-        android:textSize="34dp"
-        android:textStyle="bold"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="43dp"
-        android:text="\nВ 2010 году вышла обновлённая версия Mazda6. Её премьера состоялась на международном автошоу в Женеве. Модельный год рестайлингового автомобиля заявлен как 2011. Внешне машина отличается только новой решёткой радиатора, передним бампером, головной и задней оптикой. Салон обновлённой Mazda6 приобрёл иные передние сиденья и более качественный пластик, изменилось отображение информации на дисплее в панели приборов и мониторе бортового компьютера."/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextButtonClick"
+            android:text="Next" />
     </LinearLayout>
 </ScrollView>
 
